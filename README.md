@@ -4,8 +4,7 @@
 
 ## What is MySQL?
 * MySQL is a relational database management system
-* MySQL is open-source
-* MySQL is free
+* MySQL is open-source and free
 * MySQL is ideal for both small and large applications
 * MySQL is very fast, reliable, scalable, and easy to use
 * MySQL is cross-platform
