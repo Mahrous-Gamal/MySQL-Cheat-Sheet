@@ -18,8 +18,8 @@
 ## What is RDBMS?
 * RDBMS stands for Relational Database Management System.
 * RDBMS is a program used to maintain a relational database.
-* RDBMS uses SQL queries to access the data in the database.
 * RDBMS is the basis for all modern database systems such as MySQL, Microsoft SQL Server, Oracle, and Microsoft Access.
+* RDBMS uses SQL queries to access the data in the database.
 
 ## What is a Database Table?
 * A table is a collection of related data entries, and it consists of columns and rows.
@@ -170,6 +170,29 @@ SELECT * FROM users WHERE location='Massachusetts';
 SELECT * FROM users WHERE location='Massachusetts' AND dept='sales';
 SELECT * FROM users WHERE is_admin = 1;
 SELECT * FROM users WHERE is_admin > 0;
+```
+
+## MySQL AND, OR and NOT Operators
+
+### AND Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+```
+
+### OR Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+```
+
+### NOT Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
 ```
 
 ## Delete Row
