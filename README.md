@@ -195,18 +195,114 @@ FROM table_name
 WHERE NOT condition;
 ```
 
-## Delete Row
 
+## Order By (Sort)
+
+### ORDER BY Syntax
 ```sql
-DELETE FROM users WHERE id = 6;
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+```
+### Example
+```sql
+SELECT * FROM users ORDER BY last_name ASC;
+SELECT * FROM users ORDER BY last_name DESC;
+```
+
+## Insert Data Only in Specified Columns
+
+### INSERT INTO Syntax (1)
+```sql
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+```
+
+### INSERT INTO Syntax (2)
+```sql
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+```
+
+### Example
+```sql
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+```
+
+
+## NULL Values
+### IS NULL Syntax
+```sql
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
+```
+
+### IS NOT NULL Syntax
+```sql
+SELECT column_names
+FROM table_name
+WHERE column_name IS NOT NULL;
+```
+
+### Example
+```sql
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NOT NULL;
 ```
 
 ## Update Row
 
+### UPDATE Syntax
+
 ```sql
-UPDATE users SET email = 'freddy@gmail.com' WHERE id = 2;
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
 
 ```
+### Example
+
+```sql
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City = 'Frankfurt'
+WHERE CustomerID = 1;
+
+```
+
+## Delete Row
+
+### DELETE Syntax
+
+```sql
+DELETE FROM table_name WHERE condition;
+```
+### Example
+
+```sql
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+```
+
+
+## LIMIT Clause
+
+### LIMIT Syntax
+
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+```
+### Example
+
+```sql
+SELECT * FROM Customers
+LIMIT 3;
+```
+
 
 ## Add New Column
 
@@ -220,12 +316,7 @@ ALTER TABLE users ADD age VARCHAR(3);
 ALTER TABLE users MODIFY COLUMN age INT(3);
 ```
 
-## Order By (Sort)
 
-```sql
-SELECT * FROM users ORDER BY last_name ASC;
-SELECT * FROM users ORDER BY last_name DESC;
-```
 
 ## Concatenate Columns
 
@@ -375,4 +466,20 @@ SELECT age, COUNT(age) FROM users GROUP BY age;
 SELECT age, COUNT(age) FROM users WHERE age > 20 GROUP BY age;
 SELECT age, COUNT(age) FROM users GROUP BY age HAVING count(age) >=2;
 
+```
+
+## MySQL Comments
+
+### Single Line Comments
+```sql
+-- Select all:
+SELECT * FROM Customers;
+```
+
+### Multi-line Comments
+```sql
+/*Select all the columns
+of all the records
+in the Customers table:*/
+SELECT * FROM Customers;
 ```
