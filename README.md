@@ -25,6 +25,22 @@
 * A column holds specific information about every record in the table.
 * A record (or row) is each individual entry that exists in a table.
 
+## SQL Statements
+
+### Data Definition Language (DDL)
+* CREATE TABLE
+* ALTER TABLE
+* DROP TABLE
+* TRUNCATE TABLE
+
+### Data Manipulation Language (DML)
+* INSERT
+* UPDATE
+* DELETE
+* SELECT
+
+
+
 ## MySQL Locations
 * Mac             */usr/local/mysql/bin*
 * Windows         */Program Files/MySQL/MySQL _version_/bin*
