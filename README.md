@@ -70,6 +70,26 @@ id INT AUTO_INCREMENT,
 );
 ```
 
+##  table includes different data types
+```sql
+CREATE TABLE example_table (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    varchar_column VARCHAR(255),
+    int_column INT,
+    float_column FLOAT,
+    double_column DOUBLE,
+    boolean_column BOOLEAN,
+    date_column DATE,
+    datetime_column DATETIME,
+    timestamp_column TIMESTAMP,
+    char_column CHAR(10),
+    text_column TEXT,
+    enum_column ENUM('Option1', 'Option2', 'Option3'),
+    set_column SET('Value1', 'Value2', 'Value3')
+);
+
+```
+
 ## Delete / Drop Table
 
 ```sql
