@@ -52,6 +52,15 @@ DROP DATABASE acme;
 ```sql
 USE acme;
 ```
+## Create Table
+
+```sql
+CREATE TABLE users;
+```
+
+```sql
+CREATE TABLE IF NOT EXISTS
+```
 
 ## Create Table
 
@@ -95,7 +104,9 @@ CREATE TABLE example_table (
 ```sql
 DROP TABLE tablename;
 ```
-
+```sql
+DROP TABLE IF EXISTS tablename;
+```
 ## Show Tables
 
 ```sql
