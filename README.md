@@ -2,6 +2,30 @@
 
 > Help with SQL commands to interact with a MySQL database
 
+## What is MySQL?
+* MySQL is a relational database management system
+* MySQL is open-source
+* MySQL is free
+* MySQL is ideal for both small and large applications
+* MySQL is very fast, reliable, scalable, and easy to use
+* MySQL is cross-platform
+
+## Who Uses MySQL?
+* Huge websites like Facebook, Twitter, Airbnb, Booking.com, Uber, GitHub, YouTube, etc.
+* Content Management Systems like WordPress, Drupal, Joomla!, Contao, etc.
+* A very large number of web developers around the world
+
+## What is RDBMS?
+* RDBMS stands for Relational Database Management System.
+* RDBMS is a program used to maintain a relational database.
+* RDBMS is the basis for all modern database systems such as MySQL, Microsoft SQL Server, Oracle, and Microsoft Access.
+* RDBMS uses SQL queries to access the data in the database.
+
+## What is a Database Table?
+* A table is a collection of related data entries, and it consists of columns and rows.
+* A column holds specific information about every record in the table.
+* A record (or row) is each individual entry that exists in a table.
+
 ## MySQL Locations
 * Mac             */usr/local/mysql/bin*
 * Windows         */Program Files/MySQL/MySQL _version_/bin*
