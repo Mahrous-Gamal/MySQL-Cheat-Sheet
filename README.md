@@ -70,7 +70,7 @@ id INT AUTO_INCREMENT,
 );
 ```
 
-##  table includes different data types
+##  Table includes different data types
 ```sql
 CREATE TABLE example_table (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
