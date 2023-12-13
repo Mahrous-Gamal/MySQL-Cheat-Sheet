@@ -291,16 +291,25 @@ LIMIT 3;
 ## Add New Column
 
 ```sql
-ALTER TABLE users ADD age VARCHAR(3);
+ALTER TABLE users ADD col_name col_definition;
 ```
 
 ## Modify Column
 
 ```sql
-ALTER TABLE users MODIFY COLUMN age INT(3);
+ALTER TABLE users MODIFY col_name col_definition;
+```
+## Delete Column
+
+```sql
+ALTER TABLE users DROP col_name;
 ```
 
+## Rename Column
 
+```sql
+ALTER TABLE users RENAME old_col to new_col;
+```
 
 ## Concatenate Columns
 
