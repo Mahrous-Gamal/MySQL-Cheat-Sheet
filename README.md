@@ -223,7 +223,7 @@ WHERE NOT condition;
 ```
 
 
-## Order By (Sort)
+## ORDER BY (Sort)
 
 ### ORDER BY Syntax
 ```sql
@@ -290,7 +290,7 @@ FROM Customers
 WHERE Address IS NOT NULL;
 ```
 
-## Update Row
+## UPDATE Row
 
 ### UPDATE Syntax
 
@@ -309,7 +309,7 @@ WHERE CustomerID = 1;
 
 ```
 
-## Delete Row
+## DELETE Row
 
 ### DELETE Syntax
 
@@ -341,24 +341,24 @@ LIMIT 3;
 ```
 
 
-## Add New Column
+## ADD New Column
 
 ```sql
 ALTER TABLE users ADD col_name col_definition;
 ```
 
-## Modify Column
+## MODIFY Column
 
 ```sql
 ALTER TABLE users MODIFY col_name col_definition;
 ```
-## Delete Column
+## DROP Column
 
 ```sql
 ALTER TABLE users DROP col_name;
 ```
 
-## Rename Column
+## RENAME Column
 
 ```sql
 ALTER TABLE users RENAME old_col to new_col;
@@ -371,20 +371,20 @@ SELECT CONCAT(first_name, ' ', last_name) AS 'Name', dept FROM users;
 
 ```
 
-## Select Distinct Rows
+## SELECT DISTINCT Rows
 
 ```sql
 SELECT DISTINCT location FROM users;
 
 ```
 
-## Between (Select Range)
+## BETWEEN (Select Range)
 
 ```sql
 SELECT * FROM users WHERE age BETWEEN 20 AND 25;
 ```
 
-## Like (Searching)
+## LIKE (Searching)
 
 ```sql
 SELECT * FROM users WHERE dept LIKE 'd%';
@@ -393,7 +393,7 @@ SELECT * FROM users WHERE dept LIKE '%t';
 SELECT * FROM users WHERE dept LIKE '%e%';
 ```
 
-## Not Like
+## NOT LIKE
 
 ```sql
 SELECT * FROM users WHERE dept NOT LIKE 'd%';
@@ -505,7 +505,7 @@ SELECT UCASE(first_name), LCASE(last_name) FROM users;
 
 ```
 
-## Group By
+## GROUP BY
 
 ```sql
 SELECT age, COUNT(age) FROM users GROUP BY age;
