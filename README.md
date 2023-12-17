@@ -165,10 +165,20 @@ SELECT first_name, last_name FROM users;
 ## Where Clause
 
 ```sql
-SELECT * FROM users WHERE location='Massachusetts';
-SELECT * FROM users WHERE location='Massachusetts' AND dept='sales';
+SELECT * FROM users WHERE location = 'Massachusetts';
+SELECT * FROM users WHERE location = 'Massachusetts' AND dept = 'sales';
 SELECT * FROM users WHERE is_admin = 1;
 SELECT * FROM users WHERE is_admin > 0;
+-- Using `!=`
+SELECT * FROM users WHERE location != 'Massachusetts';
+
+-- Using `<>`
+SELECT * FROM users WHERE location <> 'Massachusetts';
+
+SELECT * FROM users WHERE location LIKE 'Mas%';
+SELECT * FROM users WHERE location IN ('Massachusetts', 'New York', 'California');
+SELECT * FROM users WHERE is_admin BETWEEN 1 AND 5;
+
 ```
 
 ### **Note**: The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.!
