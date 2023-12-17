@@ -171,6 +171,8 @@ SELECT * FROM users WHERE is_admin = 1;
 SELECT * FROM users WHERE is_admin > 0;
 ```
 
+## **Note**: The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.!
+
 ## MySQL AND, OR and NOT Operators
 
 ### AND Syntax
