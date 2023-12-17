@@ -3,7 +3,7 @@
 > Help with SQL commands to interact with a MySQL database
 
 ## What is MySQL?
-* Open Source: MySQL is open-source and free
+* --Open Source--__: MySQL is open-source and free
 * Scalability: MySQL is ideal for both small and large applications
 * Performance: MySQL is very fast, reliable, scalable, and easy to use
 * Cross-Platform: MySQL is platform-independent, and it can run on various operating systems such as Windows, Linux, macOS, and others.
