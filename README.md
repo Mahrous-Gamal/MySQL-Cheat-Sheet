@@ -276,6 +276,8 @@ FROM table_name
 WHERE column_name IS NULL;
 ```
 
+### **Tip**: Always use IS NULL to look for NULL values.
+
 ### IS NOT NULL Syntax
 ```sql
 SELECT column_names
