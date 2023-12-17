@@ -177,7 +177,7 @@ SELECT * FROM users WHERE is_admin > 0;
 Operators in The WHERE Clause
 The following operators can be used in the WHERE clause:
 
-### Operator	Description	
+### Operator		
 * **=**	        Equal	
 * **>**	        Greater than	
 * **<**	        Less than	
