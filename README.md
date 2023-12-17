@@ -25,6 +25,18 @@
 * A column holds specific information about every record in the table.
 * A record (or row) is each individual entry that exists in a table.
 
+## What is SQL?
+* SQL is the standard language for dealing with Relational Databases.
+* SQL is used to insert, search, update, and delete database records.
+
+## Keep in Mind That...
+* SQL keywords are NOT case sensitive: select is the same as SELECT
+* It is better  all SQL keywords in upper-case.
+
+## Semicolon after SQL Statements?
+* Some database systems require a semicolon at the end of each SQL statement.
+* Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be executed in the same call to the server.
+
 ## SQL Statements
 
 ### Data Definition Language (DDL)
