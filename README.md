@@ -173,6 +173,21 @@ SELECT * FROM users WHERE is_admin > 0;
 
 ### **Note**: The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.!
 
+
+Operators in The WHERE Clause
+The following operators can be used in the WHERE clause:
+
+### Operator	Description	
+* **=**	        Equal	
+* **>**	        Greater than	
+* **<**	        Less than	
+* **>=**	        Greater than or equal	
+* **<=**	        Less than or equal	
+* **<>**	        Not equal. Note: In some versions of SQL this operator may be written as !=	
+* **BETWEEN**	Between a certain range	
+* **LIKE**	Search for a pattern	
+* **IN**	        To specify multiple possible values for a column
+
 ## MySQL AND, OR and NOT Operators
 
 ### AND Syntax
