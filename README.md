@@ -3,11 +3,11 @@
 > Help with SQL commands to interact with a MySQL database
 
 ## What is MySQL?
-* __Open Source__: MySQL is open-source and free
-* Scalability: MySQL is ideal for both small and large applications
-* Performance: MySQL is very fast, reliable, scalable, and easy to use
-* Cross-Platform: MySQL is platform-independent, and it can run on various operating systems such as Windows, Linux, macOS, and others.
-* Relational Database Management System (RDBMS): MySQL is based on a relational model, organizing data into tables with rows and columns. 
+* **Open Source**: MySQL is open-source and free
+* **Scalability**: MySQL is ideal for both small and large applications
+* **Performance**: MySQL is very fast, reliable, scalable, and easy to use
+* **Cross-Platform**: MySQL is platform-independent, and it can run on various operating systems such as Windows, Linux, macOS, and others.
+* **Relational Database Management System (RDBMS)**: MySQL is based on a relational model, organizing data into tables with rows and columns. 
 
 ## Who Uses MySQL?
 * Huge websites like Facebook, Twitter, Airbnb, Booking.com, Uber, GitHub, YouTube, etc.
