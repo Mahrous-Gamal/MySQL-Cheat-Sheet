@@ -327,6 +327,10 @@ DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
 
 ## LIMIT Clause
 
+* The LIMIT clause is used to specify the number of records to return.
+
+* The LIMIT clause is useful on large tables with thousands of records. Returning a large number of records can impact performance.
+
 ### LIMIT Syntax
 
 ```sql
