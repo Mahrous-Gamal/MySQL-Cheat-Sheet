@@ -447,6 +447,14 @@ Aliases can be useful when:
 SELECT CustomerName AS Customer, ContactName AS "Contact Person"
 FROM Customers;
 ```
+## CONCAT_WS
+
+```sql
+SELECT CustomerName, CONCAT_WS(', ', Address, PostalCode, City, Country) AS Address
+FROM Customers;
+```
+
+
 
 ## Create & Remove Index
 
