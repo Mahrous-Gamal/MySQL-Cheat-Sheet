@@ -412,6 +412,10 @@ SELECT * FROM users WHERE dept LIKE '%e%';
 SELECT * FROM users WHERE dept NOT LIKE 'd%';
 ```
 
+### **Tip**: You can also combine any number of conditions using AND or OR operators.
+
+
+
 ## IN
 
 ```sql
