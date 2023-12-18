@@ -425,6 +425,25 @@ SELECT * FROM users WHERE dept NOT LIKE 'd%';
 ```sql
 SELECT * FROM users WHERE dept IN ('design', 'sales');
 ```
+## Aliases
+Aliases are used to give a table, or a column in a table, a temporary name.
+
+Aliases are often used to make column names more readable.
+
+An alias only exists for the duration of that query.
+
+An alias is created with the AS keyword.
+
+Aliases can be useful when:
+* There are more than one table involved in a query
+* Functions are used in the query
+* Column names are big or not very readable
+* Two or more columns are combined together
+
+```sql
+SELECT CustomerName AS Customer, ContactName AS "Contact Person"
+FROM Customers;
+```
 
 ## Create & Remove Index
 
