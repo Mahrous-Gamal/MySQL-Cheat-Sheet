@@ -311,6 +311,8 @@ WHERE CustomerID = 1;
 
 ```
 
+### **Note**: Be careful when updating records in a table! Notice the **WHERE** clause in the **UPDATE** statement. The **WHERE** clause specifies which record(s) that should be updated. If you omit the **WHERE** clause, all records in the table will be updated!
+
 ## DELETE Row
 
 ### DELETE Syntax
@@ -324,6 +326,7 @@ DELETE FROM table_name WHERE condition;
 DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
 ```
 
+### **Note**: Be careful when deleting records in a table! Notice the **WHERE** clause in the **DELETE** statement. The **WHERE** clause specifies which record(s) should be deleted. If you omit the **WHERE** clause, all records in the table will be deleted!
 
 ## LIMIT Clause
 
