@@ -581,5 +581,14 @@ in the Customers table:*/
 SELECT * FROM Customers;
 ```
 
+## MySQL Database Interview Questions
+
+* [10 MySQL Database Interview Questions for Beginners and Intermediates](http://www.tecmint.com/10-mysql-database-interview-questions-for-beginners-and-intermediates/)
+* [100 MySQL interview questions](http://www.careerride.com/MySQL-Interview-Questions.aspx)
+* [15 Basic MySQL Interview Questions for Database Administrators](http://www.tecmint.com/basic-mysql-interview-questions-for-database-administrators/)
+* [28 MySQL interview questions from JavaTPoint.com](http://www.javatpoint.com/mysql-interview-questions)
+* [40 Basic MySQL Interview Questions with Answers](http://www.testingbrain.com/interview/mysql-interview-questions.html)
+* [Top 50 MySQL Interview Questions & Answers from Career Guru](http://career.guru99.com/top-50-mysql-interview-questions-answers/)
+
 ### Contact
 If you want to contact with me you can reach me at [Linkedin](https://www.linkedin.com/in/mahrous-gamal-044693218/).
